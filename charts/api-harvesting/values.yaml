@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.15.247.6:5000/project-scorpion/api-harvesting
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: api-harvesting
